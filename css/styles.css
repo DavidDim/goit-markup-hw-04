@@ -282,7 +282,8 @@
     text-align: center; 
     padding-top: 200px;
     padding-bottom: 200px; 
-    background-image: url(../images/hero.jpg);
+    background-image:  linear-gradient(to left, #2F303A40, #2F303A40), url(../images/hero.jpg);
+    position: relative;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -370,6 +371,10 @@
 
 .img-work .img-card:first-child {
     margin-left: 0;
+}
+
+.image-card {
+    display: block;
 }
 
 .team .title {
@@ -473,6 +478,7 @@
     border-style: solid;
     border-color: #EEEEEE;
     border-width: 1px;
+    border-top: 0;
 }
 
 .xrp .title-card {
@@ -652,7 +658,6 @@
     flex-wrap: wrap;
     margin-top: 12px;
     margin-right: auto;
-    order: ;
 }
 
 
@@ -701,7 +706,7 @@ address {
     background-color: var(--bgc-button-color);
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.8;
     display: flex;
